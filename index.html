@@ -3,82 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CERLANG - Electrical Services</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #003366;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 24px;
-        }
-        nav {
-            background: #0056b3;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 15px 20px;
-            display: inline-block;
-        }
-        section {
-            padding: 40px;
-            text-align: center;
-        }
-        .services {
-            background: #ffffff;
-            padding: 20px;
-            margin: 20px auto;
-            width: 80%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background: #222;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <title>CERLANG - Electrical Services Maintenance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>CERLANG - Electrical Services Maintenance</header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <header>
+        <div class="container">
+            <h1>CERLANG</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     
-    <section id="home">
-        <h1>Welcome to CERLANG</h1>
-        <p>Your trusted partner in electrical maintenance services.</p>
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Trusted Electrical Services Maintenance</h2>
+            <p>Reliable, Professional, and High-Quality Solutions for Your Needs</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
     </section>
-    
-    <section id="about">
-        <h1>About Us</h1>
-        <p>CERLANG is dedicated to providing professional electrical maintenance services with a focus on trust and quality.</p>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>CERLANG provides top-tier electrical services maintenance with a commitment to quality and professionalism.</p>
     </section>
-    
-    <section id="services" class="services">
-        <h1>Our Services</h1>
-        <p>We offer a range of electrical maintenance solutions for homes, businesses, and industries.</p>
+
+    <section id="services" class="container">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Electrical Maintenance</li>
+            <li>Installation & Repair</li>
+            <li>Safety Inspections</li>
+        </ul>
     </section>
-    
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <p>Email: contact@cerlang.com</p>
-        <p>Phone: +123456789</p>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: contact@cerlang.com | Phone: (123) 456-7890</p>
     </section>
-    
-    <footer>&copy; 2025 CERLANG. All Rights Reserved.</footer>
+
+    <footer>
+        <p>&copy; 2025 CERLANG. All rights reserved.</p>
+    </footer>
 </body>
 </html>
